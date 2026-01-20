@@ -1,0 +1,234 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Remoroo-specific artifacts
+.remoroo_cache/
+*.remoroo
+
+# Model files and checkpoints
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.ckpt
+*.safetensors
+*.onnx
+*.pb
+*.tflite
+*.mlmodel
+
+# Data files (large datasets)
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.arrow
+*.npz
+*.npy
+*.mat
+
+# Image files (generated/test data)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.webp
+test_data/
+recon_*.png
+val_*_pred_*.png
+
+# Logs
+*.log
+logs/
+*.out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.*
+
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+.cache/
+
+# Artifacts
+artifacts/
+*.json.bak
+*.json.tmp
+
+# Sample repos (may contain generated files)
+sample_*/venv/
+sample_*/.venv/
+sample_*/__pycache__/
+sample_*/artifacts/
+sample_*/test_data/
+sample_*/*.pt
+sample_*/*.pkl
+sample_*/*.pth
+sample_*/trained_model.*
+
+# Config files with secrets (if any)
+configs/*.local.json
+configs/*.secret.json
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+
+# MacOS
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Node.js (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+
+# Package files
+*.whl
+*.tar.gz
+*.zip
+
+# repo folders
+mnist/
+mnist_train.csv
+mnist_test.csv
+sample_mnist_repo/data/mnist_train.csv
+sample_mnist_repo/data/mnist_test.csv
+runs/
+benchmarks/
+simulations/
+data/
+.github/
+test/
+
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+terraform.tfvars
+
+
+#Vercel
+remoroo-web/.vercelignore

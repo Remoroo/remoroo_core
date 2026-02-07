@@ -42,7 +42,7 @@ class ExecutionResult:
     artifacts: Dict[str, Any] = field(default_factory=dict)
     metrics: Dict[str, Any] = field(default_factory=dict)
     logs: str = ""
-    status: str = "completed"  # COMPLETED | FAILED | TIMED_OUT
+    status: str = "SUCCESS"  # SUCCESS | FAILED | TIMED_OUT
     error: Optional[str] = None
     # Versioning and tracing
     schema_version: str = SCHEMA_VERSION
@@ -52,7 +52,7 @@ class ExecutionResult:
 class StepStatus(str, Enum):
     PENDING = "PENDING"
     CLAIMED = "CLAIMED"
-    COMPLETED = "COMPLETED"
+    SUCCESS = "SUCCESS"
     FAILED = "FAILED"
     TIMED_OUT = "TIMED_OUT"
 

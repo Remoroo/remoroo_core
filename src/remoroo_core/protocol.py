@@ -41,6 +41,7 @@ class ExecutionResult:
     data: Dict[str, Any] = field(default_factory=dict)  # Main response payload
     artifacts: Dict[str, Any] = field(default_factory=dict)
     metrics: Dict[str, Any] = field(default_factory=dict)
+    metrics_changed: bool = False  # Architecture Migration: Flag to prevent redundant log spam/callbacks
     logs: str = ""
     status: str = "SUCCESS"  # SUCCESS | FAILED | TIMED_OUT
     error: Optional[str] = None
